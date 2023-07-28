@@ -1,0 +1,64 @@
+.container{
+    border: 5px solid gray;
+    background-color: rgb(230, 221, 205);
+    /* width: fit-content; */
+    padding-left: 14px;
+    padding-right: 10px;
+    padding-top:10px;
+    width:230px;
+    position: absolute;
+    left:40%;
+    border-radius: 7px;
+    margin-top: 20px;
+}
+.r0{
+    /* padding-left: 500px; */
+    width:220px;
+    padding-bottom: 10px;
+}
+input{
+    width: 210px;
+    height: 50px;
+    cursor: text;
+    background-color: rgb(168, 222, 222);
+    font-size: x-large;
+    text-align: right;
+}
+
+    .r1,.r2,.r3,.r4,.r5,.r6,.r7{
+    /* padding-left: 500px; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    width:220px;
+    padding-bottom: 10px;
+}
+.button{
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+    width:50px;
+    border-radius: 8px;
+    background-color: rgb(219, 216, 216);
+}
+.button:hover{
+    
+    font-weight: 700;
+}
+.num{
+    background-color: rgb(172, 206, 195);
+}
+.footer{
+    
+    text-align: right;
+}
+.arith{
+    background-color:aquamarine;
+    font-size: large;
+}
+.allclear{
+    
+    color:red;
+    font-weight: bolder;
+}
